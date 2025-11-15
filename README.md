@@ -3,6 +3,7 @@
 Blue Moon is an end-to-end recon automation toolkit designed for security researchers and bug bounty hunters.
 It streamlines subdomain enumeration, URL harvesting, JS recon, vulnerability scanning, and takeover detection, all in one workflow.
 
+![Preview](https://github.com/lagan1/Blue-Moon/blob/main/image.png)
 
 
 ## 🚀 Features
@@ -91,21 +92,23 @@ You can run individual phases or execute the full pipeline using Run ALL.
 
 ### 🛠️ Requirements
 
-Blue Moon integrates with the following tools:
+- Blue Moon integrates with the following tools:
 Subfinder, Amass, AlterX, DNSX, PureDNS, HTTPX, GAU, Katana, urlfinder, Waymore, Nuclei, SecretFinder, LinkFinder.
 
-Ensure all tools are installed and available in your PATH.
+- Ensure all tools are installed and available in your PATH.
 
 ### 📦 Installation
 
-Blue Moon includes automated setup scripts for installing all required dependencies on both Linux and Windows.
+- Blue Moon includes automated setup scripts for installing all required dependencies on both Linux and Windows.
 
 #### Linux Setup
 
-Run the installation script:
+- Run the installation script:
 
-chmod +x scripts/install_tools.sh
+```
+ chmod +x scripts/install_tools.sh
 ./scripts/install_tools.sh
+```
 
 This installs all required tools such as Subfinder, Amass, DNSX, PureDNS, HTTPX, GAU, Katana, Waymore, Nuclei, SecretFinder, LinkFinder, and others used throughout the pipeline.
 
@@ -113,16 +116,18 @@ This installs all required tools such as Subfinder, Amass, DNSX, PureDNS, HTTPX,
 
 Run the PowerShell installation script:
 
+```
 Set-ExecutionPolicy Bypass -Scope Process -Force
 .\scripts\install_tools.ps1
+```
 
 This installs all supported Windows versions of the required tools.
 
 #### Manual Setup (Optional)
 
-If you prefer to install tools manually, ensure that all dependencies are available in your system PATH.
+- If you prefer to install tools manually, ensure that all dependencies are available in your system PATH.
 
 
 ### 🧪Example/Usage:
 
-python3 bluemoon.py menu
+``` python3 bluemoon.py menu ```
