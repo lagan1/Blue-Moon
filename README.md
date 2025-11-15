@@ -90,6 +90,12 @@ You can run individual phases or execute the full pipeline using Run ALL.
  └── logs/
 ``` 
 
+
+### 🧪Example/Usage:
+
+``` python3 bluemoon.py menu ```
+
+
 ### 🛠️ Requirements
 
 - Blue Moon integrates with the following tools:
@@ -127,7 +133,3 @@ This installs all supported Windows versions of the required tools.
 
 - If you prefer to install tools manually, ensure that all dependencies are available in your system PATH.
 
-
-### 🧪Example/Usage:
-
-``` python3 bluemoon.py menu ```
